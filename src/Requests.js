@@ -1,14 +1,6 @@
-const API_KEY = "8bc5190668dbc1be11cb908c1392cd12";
+const API_KEY = process.env.REACT_APP_RAPID_API_KEY;
 
-// bun 20be784f740b6b638c906dde5b35efae
 
-//8bc5190668dbc1be11cb908c1392cd12
-
-// 2e463d21372242779fee0e1b2584e0a2
-
-// 603a3807cb6407b8730c629d2bdbfb0b
-
-//f81980ff410e46f422d64ddf3a56dddd
 
 const requests = {
   fetchTrending: `https://api.themoviedb.org/3/trending/all/week?api_key=${API_KEY}`,
