@@ -6,12 +6,12 @@ import 'firebase/compat/firestore';
 
 
 const firebaseConfig = {
-    apiKey: "AIzaSyC87z9-nYbwqJva2bugkRlmcQf1Bg91eYY",
-    authDomain: "netflix-clone-61fcf.firebaseapp.com",
-    projectId: "netflix-clone-61fcf",
-    storageBucket: "netflix-clone-61fcf.appspot.com",
-    messagingSenderId: "864593941653",
-    appId: "1:864593941653:web:56b8812cca8502129c379c"
+    apiKey: process.env.REACT_APP_RAPID_API_KEY",
+    authDomain: process.env.REACT_APP_RAPID_API_KEY,
+    projectId: process.env.REACT_APP_RAPID_API_KEY",
+    storageBucket: process.env.REACT_APP_RAPID_API_KEY,
+    messagingSenderId: process.env.REACT_APP_RAPID_API_KEY,
+    appId: process.env.REACT_APP_RAPID_API_KEY
   };
 
 // Use this to initialize the firebase App
